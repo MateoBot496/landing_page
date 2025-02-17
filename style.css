@@ -27,17 +27,32 @@ footer{
 }
 
 .content1{
-    padding: 5% 20%;
     display: flex;
     gap: 5vh;
     align-items: center;
+    justify-content: center;
+}
+
+.content1 h1{
+    text-wrap: nowrap;
+}
+
+.media-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5% 20% 5%;
+    gap: 2%;
+    padding: 2%;
 }
 
 .subcontent1{
-    margin-right: auto;
+
+    margin-right: auto; 
     display: flex;
     flex-direction: column;
-    gap: 2vh;
+    gap: 2%;
+    padding: 2%;
 }
 
 button{
@@ -52,7 +67,7 @@ button{
 }
 
 .img{
-    width: 30%;
+    max-width: 300px;
 }
 
 .content2{
@@ -64,6 +79,8 @@ button{
 }
 .subcontent2{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 2vh;
 }
 .cuadrado{
@@ -72,14 +89,14 @@ button{
 .cuadrado div{
     border-radius: 20px;
     border: 5px solid rgba(93, 142, 214, 0.884);
-    width: 10vh;
-    height: 10vh;
+    width: 100px;
+    height: 100px;
     margin: 2vh;
 }
 
 .content3{
     background-color: rgba(197, 199, 201, 0.938);
-    padding: 5% 30%;
+    padding: 5% 20%;
     font-size: x-large;
 }
 
