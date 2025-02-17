@@ -38,12 +38,12 @@ footer{
 }
 
 .media-box{
+    border: 2px solid salmon;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 5% 20% 5%;
     gap: 2%;
-    padding: 2%;
 }
 
 .subcontent1{
